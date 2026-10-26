@@ -1,0 +1,44 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite Databases & Storage
+storage/*.db
+storage/*.sqlite
+storage/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded Files & Generated Thumbnails
+storage/thumbnails/
+storage/uploads/
+image/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.tiff
+*.pdf
+*.log
+!tests/assets/sample_face.jpg
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
